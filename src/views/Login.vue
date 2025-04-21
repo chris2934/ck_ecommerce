@@ -47,7 +47,9 @@
 
     <!-- Right Green Section -->
     <div class="right-section">
-      <p>This is the right section!</p>
+      <h1>New Here?</h1>
+      <p>Sign up and discover a great amount of new opportunities!</p>
+      <button class="sign-up-button">Sign Up</button>
     </div>
   </div>
 </template>
@@ -98,9 +100,10 @@ export default {
 .login-form {
   width: 100%;
   max-width: 400px;
-  transform: translateY(-30%);
+  transform: translate(-50%, -20%);
   box-sizing: border-box;
 }
+
 
 /* Remove Input fields and labels styling remains the same */
 .form-group {
@@ -193,5 +196,23 @@ input {
   right: 0;
   top: 0;
   box-sizing: border-box;
+}
+
+.sign-up-button {
+  width: 50%;
+  background-color: white; /* White background */
+  color: black; /* Black text color */
+  font-size: 16px; /* Medium font size */
+  padding: 12px 24px; /* Padding for button size */
+  border: 2px solid #d5d3d3; /* Black border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 15px; /* Space above the button */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.sign-up-button:hover {
+  background-color: black; /* Invert background color */
+  color: white; /* Invert text color */
 }
 </style>
